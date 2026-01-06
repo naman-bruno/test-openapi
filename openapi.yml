@@ -16,8 +16,8 @@ servers:
 paths:
   /pets:
     get:
-      description: Returns all pets from the system that the user has access to.
-      operationId: findPets
+      description: Returns all pets from the system that the user has access to dsfsdf
+      operationId: findPetssss
       parameters:
         - name: tags
           in: query
@@ -37,7 +37,7 @@ paths:
             format: int32
       responses:
         '200':
-          description: pet response
+          description: pet responses
           content:
             application/json:
               schema:
