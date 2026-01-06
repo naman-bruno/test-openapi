@@ -67,6 +67,23 @@ paths:
             application/json:
               schema:
                 $ref: '#/components/schemas/Pet'
+    put:
+      description: Creates a new pet in the store. Duplicates are sdfdsf
+      operationId: addPet-copy
+      requestBody:
+        description: Pet to add to the store
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/NewPet'
+      responses:
+        '200':
+          description: pet responsee
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Pet'
   /pets/{id}:
     get:
       description: Returns a single pet based on ID
