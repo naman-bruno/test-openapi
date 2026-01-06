@@ -51,7 +51,7 @@ paths:
               schema:
                 $ref: '#/components/schemas/Error'
     post:
-      description: Creates a new pet in the store. Duplicates are
+      description: Creates a new pet in the store. Duplicates are sdfdsf
       operationId: addPet-copy
       requestBody:
         description: Pet to add to the store
